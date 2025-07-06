@@ -21,9 +21,8 @@ const Hero: FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="hero-subtitle"
         >
-          Altın standartta hizmetle unutulmaz bir yolculuğa hazır mısın? Araç
-          kiralama deneyimini Altın Seçenekleri ile taçlandırarak her anını özel
-          kılabilirsin.
+          Altın standartta hizmetle unutulmaz bir yolculuğa hazır mısın? Araç kiralama deneyimini Altın Seçenekleri ile
+          taçlandırarak her anını özel kılabilirsin.
         </motion.p>
 
         <motion.div
@@ -31,7 +30,7 @@ const Hero: FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <Button text="Arabaları Keşfet" designs="mt-12" />
+          <Button text="Arabaları Keşfet" designs="mt-12" name="arabaları keşfet" />
         </motion.div>
       </div>
 
@@ -46,6 +45,7 @@ const Hero: FC = () => {
           <img
             src="/hero.png"
             className="object-contain xl:w-[600px] xl:h-[477.5px] drop-shadow-2xl"
+            alt="sağ çapraz açıdan gri bmw araba"
           />
         </motion.div>
       </div>
