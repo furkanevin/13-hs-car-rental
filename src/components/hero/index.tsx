@@ -38,7 +38,7 @@ const Hero: FC = () => {
         <motion.div
           initial={{ translateX: 200, scale: 0.7, opacity: 0 }}
           animate={{ translateX: 0, scale: 1, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="relative"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-primary-blue/30 to-accent/30 rounded-full blur-3xl -z-10" />
