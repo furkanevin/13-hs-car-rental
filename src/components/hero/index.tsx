@@ -9,7 +9,7 @@ const Hero: FC = () => {
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.2 }}
           className="hero-title"
         >
           Özgürlüğü Hisset, Yolculuğa Başla
@@ -18,7 +18,7 @@ const Hero: FC = () => {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.2, delay: 0.1 }}
           className="hero-subtitle"
         >
           Altın standartta hizmetle unutulmaz bir yolculuğa hazır mısın? Araç kiralama deneyimini Altın Seçenekleri ile
@@ -28,7 +28,7 @@ const Hero: FC = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
+          transition={{ duration: 0.2, delay: 0.2 }}
         >
           <Button text="Arabaları Keşfet" designs="mt-12" name="arabaları keşfet" />
         </motion.div>
@@ -38,7 +38,7 @@ const Hero: FC = () => {
         <motion.div
           initial={{ translateX: 200, scale: 0.7, opacity: 0 }}
           animate={{ translateX: 0, scale: 1, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.2, delay: 0.2 }}
           className="relative max-md:min-h-[250px]"
         >
           <div className="absolute inset-0 bg-gradient-to-br from-primary-blue/30 to-accent/30 rounded-full blur-3xl -z-10" />
